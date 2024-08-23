@@ -1,6 +1,7 @@
 package com.devsuperior.dslit.dto;
 
 import com.devsuperior.dslit.entities.Game;
+import com.devsuperior.dslit.projections.GameMinProjection;
 
 public class GameResponseDTO {
     private Long id;
@@ -9,15 +10,20 @@ public class GameResponseDTO {
     private String imgUrl;
     private String description;
 
-    public GameResponseDTO(){
-    }
-
     public GameResponseDTO(Game entity){
         id = entity.getId();
         title = entity.getTitle();
         year = entity.getYear();
         imgUrl = entity.getImgUrl();
         description = entity.getDescription();
+    }
+
+    public GameResponseDTO(GameMinProjection projection){
+        id = projection.getId();
+        title = projection.getTitle();
+        year = projection.getYear();
+        imgUrl = projection.getImgUrl();
+        description = projection.getDescription();
     }
 
     public Long getId() {
