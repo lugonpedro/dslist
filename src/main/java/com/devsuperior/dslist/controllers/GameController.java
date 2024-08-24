@@ -1,7 +1,7 @@
-package com.devsuperior.dslit.controllers;
+package com.devsuperior.dslist.controllers;
 
-import com.devsuperior.dslit.dto.GameResponseDTO;
-import com.devsuperior.dslit.services.GameService;
+import com.devsuperior.dslist.dto.GameResponseDTO;
+import com.devsuperior.dslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

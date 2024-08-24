@@ -1,7 +1,7 @@
-package com.devsuperior.dslit.dto;
+package com.devsuperior.dslist.dto;
 
-import com.devsuperior.dslit.entities.Game;
-import com.devsuperior.dslit.projections.GameMinProjection;
+import com.devsuperior.dslist.entities.Game;
+import com.devsuperior.dslist.projections.GameMinProjection;
 
 public class GameResponseDTO {
     private Long id;

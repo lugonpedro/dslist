@@ -1,11 +1,11 @@
-package com.devsuperior.dslit.services;
+package com.devsuperior.dslist.services;
 
 
-import com.devsuperior.dslit.dto.GameListResponseDTO;
-import com.devsuperior.dslit.entities.GameList;
-import com.devsuperior.dslit.projections.GameMinProjection;
-import com.devsuperior.dslit.repositories.GameListRepository;
-import com.devsuperior.dslit.repositories.GameRepository;
+import com.devsuperior.dslist.dto.GameListResponseDTO;
+import com.devsuperior.dslist.entities.GameList;
+import com.devsuperior.dslist.projections.GameMinProjection;
+import com.devsuperior.dslist.repositories.GameListRepository;
+import com.devsuperior.dslist.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
