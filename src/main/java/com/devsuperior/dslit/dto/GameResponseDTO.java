@@ -21,7 +21,7 @@ public class GameResponseDTO {
     public GameResponseDTO(GameMinProjection projection){
         id = projection.getId();
         title = projection.getTitle();
-        year = projection.getYear();
+        year = projection.getGameYear();
         imgUrl = projection.getImgUrl();
         description = projection.getDescription();
     }
